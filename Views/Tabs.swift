@@ -15,9 +15,14 @@ struct Tabs: View {
                     Label("Dashboard", systemImage: "house")
                 }
             
-            AddActivity()
+//            AddActivity()
+//                .tabItem {
+//                    Label("Activity", systemImage: "plus")
+//                }
+            
+            Profile()
                 .tabItem {
-                    Label("Activity", systemImage: "plus")
+                    Label("Profile", systemImage: "person")
                 }
         }
     }
